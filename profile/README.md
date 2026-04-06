@@ -14,7 +14,15 @@ Full-stack SAP development platform and aviation dashboard, built with Express 5
 | | Package | Description | Version |
 |---|---------|-------------|---------|
 | **[Common](https://github.com/JDL-STACK/common)** | Shared Packages | `@jdl/backend-core` + `@jdl/frontend-core` | `v1.0.0` |
-| **[Workspace](https://github.com/JDL-STACK/workspace)** | Monorepo Root | npm workspaces + git submodules | `v0.1.0` |
+| **[Workspace](https://github.com/JDL-STACK/workspace)** | Monorepo Root | npm workspaces + git submodules | `v0.2.0` |
+
+## Documentation
+
+| Document | Description |
+|----------|-------------|
+| [Workspace README](https://github.com/JDL-STACK/workspace#readme) | Setup, structure, submodule management |
+| [Orchestrair CLAUDE.md](https://github.com/JDL-STACK/orchestrair/blob/dev/CLAUDE.md) | Full architecture, GoF patterns, API reference |
+| [SkyDesk CLAUDE.md](https://github.com/JDL-STACK/skydesk/blob/dev/CLAUDE.md) | Aviation app architecture and features |
 
 ## Stack
 
@@ -27,4 +35,6 @@ workspace/               npm workspaces root
   common/                @jdl/backend-core + @jdl/frontend-core
   orchestrair/           SAP dev platform (dev/prod branches)
   skydesk/               Aviation dashboard
+  server.js              JDL-STACK CMS (Fastify 5 + Nunjucks SSR, port 3040)
+  templates/model/       Product presentation pages (Ashley template)
 ```
