@@ -8,6 +8,7 @@ Full-stack SAP development platform and aviation dashboard, built with Express 5
 |---|-----|-------------|---------|
 | **[Orchestrair](https://github.com/JDL-STACK/orchestrair)** | SAP Control Tower | AI-powered ABAP/RAP code analysis, MCP tools, BTP management | `v0.6.0` |
 | **[SkyDesk](https://github.com/JDL-STACK/skydesk)** | Aviation Dashboard | ATPL theory study, PPL currency tracking, flight preparation | `v0.1.0` |
+| **[JDL-STACK CMS](https://github.com/JDL-STACK/jdl-stack)** | Personal Website | Fastify 5 + Nunjucks SSR, bilingual CMS, product pages | `v1.0.0` |
 
 ## Shared
 
@@ -23,6 +24,7 @@ Full-stack SAP development platform and aviation dashboard, built with Express 5
 | [Workspace README](https://github.com/JDL-STACK/workspace#readme) | Setup, structure, submodule management |
 | [Orchestrair CLAUDE.md](https://github.com/JDL-STACK/orchestrair/blob/dev/CLAUDE.md) | Full architecture, GoF patterns, API reference |
 | [SkyDesk CLAUDE.md](https://github.com/JDL-STACK/skydesk/blob/dev/CLAUDE.md) | Aviation app architecture and features |
+| [JDL-STACK CMS CLAUDE.md](https://github.com/JDL-STACK/jdl-stack/blob/dev/CLAUDE.md) | CMS architecture, product pages, GoF patterns |
 
 ## Stack
 
@@ -35,6 +37,5 @@ workspace/               npm workspaces root
   common/                @jdl/backend-core + @jdl/frontend-core
   orchestrair/           SAP dev platform (dev/prod branches)
   skydesk/               Aviation dashboard
-  server.js              JDL-STACK CMS (Fastify 5 + Nunjucks SSR, port 3040)
-  templates/model/       Product presentation pages (Ashley template)
+  jdl-stack/             Personal website CMS (independent repo)
 ```
